@@ -1,4 +1,11 @@
 .profile {
     display: block;
-   
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 14px;
+    width: 500px;
+}
+.stats {
+    list-style: none;
 }
