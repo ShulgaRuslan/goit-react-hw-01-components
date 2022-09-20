@@ -1,0 +1,27 @@
+.transaction-history{
+    margin-right: 50px;
+    border: 1px solid #5c8eb9;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    
+}
+thead{
+    background-color: rgb(79, 104, 228);
+    color: white;
+}
+th,
+td {
+    padding:5px 10px;
+    text-align: center;
+    border: 1px solid #5c8eb9;
+    
+}
+tbody tr:nth-child(2n-1) {
+    background-color: hwb(0 98% 0% / 0.889);
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #add1f1;
+}
